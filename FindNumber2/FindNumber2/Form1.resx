@@ -1,0 +1,309 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Private.CoreLib" name="System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e" />
+  <data name="mainTitle.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing.Primitives" name="System.Drawing.Primitives, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="mainTitle.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>24, 9</value>
+  </data>
+  <data name="mainTitle.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>226, 20</value>
+  </data>
+  <data name="mainTitle.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>0</value>
+  </data>
+  <data name="mainTitle.Text" xml:space="preserve">
+    <value>Угадайте целое число от 0 до 9</value>
+  </data>
+  <data name="&gt;&gt;mainTitle.Name" xml:space="preserve">
+    <value>mainTitle</value>
+  </data>
+  <data name="&gt;&gt;mainTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mainTitle.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mainTitle.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <assembly alias="System.Drawing.Common" name="System.Drawing.Common, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51" />
+  <data name="buttonReload.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="buttonReload.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>24, 65</value>
+  </data>
+  <data name="buttonReload.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>129, 61</value>
+  </data>
+  <data name="buttonReload.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>1</value>
+  </data>
+  <data name="buttonReload.Text" xml:space="preserve">
+    <value>Новая игра</value>
+  </data>
+  <data name="&gt;&gt;buttonReload.Name" xml:space="preserve">
+    <value>buttonReload</value>
+  </data>
+  <data name="&gt;&gt;buttonReload.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonReload.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonReload.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="infoPannel.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>24, 129</value>
+  </data>
+  <data name="infoPannel.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>267, 49</value>
+  </data>
+  <data name="infoPannel.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>7</value>
+  </data>
+  <data name="infoPannel.Text" xml:space="preserve">
+    <value>info</value>
+  </data>
+  <data name="&gt;&gt;infoPannel.Name" xml:space="preserve">
+    <value>infoPannel</value>
+  </data>
+  <data name="&gt;&gt;infoPannel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;infoPannel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;infoPannel.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="labelAboutHealth.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="labelAboutHealth.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>24, 223</value>
+  </data>
+  <data name="labelAboutHealth.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>140, 20</value>
+  </data>
+  <data name="labelAboutHealth.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>3</value>
+  </data>
+  <data name="labelAboutHealth.Text" xml:space="preserve">
+    <value>Осталось попыток:</value>
+  </data>
+  <data name="&gt;&gt;labelAboutHealth.Name" xml:space="preserve">
+    <value>labelAboutHealth</value>
+  </data>
+  <data name="&gt;&gt;labelAboutHealth.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelAboutHealth.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelAboutHealth.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="countOfHealth.AutoSize" type="System.Boolean, System.Private.CoreLib">
+    <value>True</value>
+  </data>
+  <data name="countOfHealth.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>170, 223</value>
+  </data>
+  <data name="countOfHealth.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>17, 20</value>
+  </data>
+  <data name="countOfHealth.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>4</value>
+  </data>
+  <data name="countOfHealth.Text" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;countOfHealth.Name" xml:space="preserve">
+    <value>countOfHealth</value>
+  </data>
+  <data name="&gt;&gt;countOfHealth.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;countOfHealth.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;countOfHealth.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="inputNumberBox.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>24, 32</value>
+  </data>
+  <data name="inputNumberBox.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>267, 27</value>
+  </data>
+  <data name="inputNumberBox.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;inputNumberBox.Name" xml:space="preserve">
+    <value>inputNumberBox</value>
+  </data>
+  <data name="&gt;&gt;inputNumberBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;inputNumberBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;inputNumberBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="checkNumberButton.Font" type="System.Drawing.Font, System.Drawing.Common">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="checkNumberButton.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>162, 65</value>
+  </data>
+  <data name="checkNumberButton.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>129, 61</value>
+  </data>
+  <data name="checkNumberButton.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>1</value>
+  </data>
+  <data name="checkNumberButton.Text" xml:space="preserve">
+    <value>Проверить число</value>
+  </data>
+  <data name="&gt;&gt;checkNumberButton.Name" xml:space="preserve">
+    <value>checkNumberButton</value>
+  </data>
+  <data name="&gt;&gt;checkNumberButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkNumberButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkNumberButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="prevNumbers.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>24, 178</value>
+  </data>
+  <data name="prevNumbers.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>267, 45</value>
+  </data>
+  <data name="prevNumbers.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>7</value>
+  </data>
+  <data name="prevNumbers.Text" xml:space="preserve">
+    <value>Вы уже вводили: </value>
+  </data>
+  <data name="&gt;&gt;prevNumbers.Name" xml:space="preserve">
+    <value>prevNumbers</value>
+  </data>
+  <data name="&gt;&gt;prevNumbers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;prevNumbers.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;prevNumbers.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="PrevInformation.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+    <value>24, 255</value>
+  </data>
+  <data name="PrevInformation.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>274, 201</value>
+  </data>
+  <data name="PrevInformation.TabIndex" type="System.Int32, System.Private.CoreLib">
+    <value>7</value>
+  </data>
+  <data name="PrevInformation.Text" xml:space="preserve">
+    <value>Информация о прошлых попытках: </value>
+  </data>
+  <data name="&gt;&gt;PrevInformation.Name" xml:space="preserve">
+    <value>PrevInformation</value>
+  </data>
+  <data name="&gt;&gt;PrevInformation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PrevInformation.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;PrevInformation.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing.Primitives">
+    <value>8, 20</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing.Primitives">
+    <value>329, 465</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Find Number</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
